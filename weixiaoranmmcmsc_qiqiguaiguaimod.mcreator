@@ -1,0 +1,861 @@
+{
+  "mod_elements": [
+    {
+      "name": "Shiyou",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shiyou",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/shiyou_bucket.json",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/block/shiyou.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/block/ShiyouBlock.java",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/fluid/types/ShiyouFluidType.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/blockstates/shiyou.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/fluid/ShiyouFluid.java",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/ShiyouItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Jvyuxi",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jvyuxi",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/JvyuxiItem.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/blockstates/jvyuxi.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/fluid/types/JvyuxiFluidType.java",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/fluid/JvyuxiFluid.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/jvyuxi_bucket.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/block/JvyuxiBlock.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/block/jvyuxi.json"
+        ]
+      }
+    },
+    {
+      "name": "Jvyixipafang",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jvyixipafang",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/brewing/JvyixipafangBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Kongchangpian",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kongchangpian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/kongchangpian.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/KongchangpianItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Changpianmojv",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "changpianmojv",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/ChangpianmojvItem.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/changpianmojv.json"
+        ]
+      }
+    },
+    {
+      "name": "Kongchangpianpefang",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kongchangpianpefang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/kongchangpianpefang.json"
+        ]
+      }
+    },
+    {
+      "name": "Qiqiguaiguaidemodbiaoqianye",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qiqiguaiguaidemodbiaoqianye",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Changpiankeluji",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "changpiankeluji",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/changpiankeluji.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/ChangpiankelujiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Haoyunlai",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haoyunlai",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/jukebox_song/haoyunlai.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/HaoyunlaiItem.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/haoyunlai.json"
+        ]
+      }
+    },
+    {
+      "name": "Gongxifacaichangpian",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gongxifacaichangpian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/gongxifacaichangpian.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/jukebox_song/gongxifacaichangpian.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/GongxifacaichangpianItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Haoyunlaichangpianhecheng",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haoyunlaichangpianhecheng",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/haoyunlaichangpianhecheng.json"
+        ]
+      }
+    },
+    {
+      "name": "Gongxifacaichangpianhecheng",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gongxifacaichangpianhecheng",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/gongxifacaichangpianhecheng.json"
+        ]
+      }
+    },
+    {
+      "name": "Shiyoushengcheng",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shiyoushengcheng",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/worldgen/configured_feature/shiyoushengcheng.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/neoforge/biome_modifier/shiyoushengcheng_biome_modifier.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/worldgen/placed_feature/shiyoushengcheng.json"
+        ]
+      }
+    },
+    {
+      "name": "Changpiankelujipafang",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "changpiankelujipafang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/changpiankelujipafang.json"
+        ]
+      }
+    },
+    {
+      "name": "Changpianmojvpeifang",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "changpianmojvpeifang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/changpianmojvpeifang.json"
+        ]
+      }
+    },
+    {
+      "name": "Showitbencangpian",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showitbencangpian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/showitbencangpian.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/jukebox_song/showitbencangpian.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/ShowitbencangpianItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Showitbenhecheng",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showitbenhecheng",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/showitbenhecheng.json"
+        ]
+      }
+    },
+    {
+      "name": "TannamiguanTntTannamiguantianti",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguan_tnt_tannamiguantianti",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/blockstates/tannamiguan_tnt_tannamiguantianti.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/block/TannamiguanTntTannamiguantiantiBlock.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/tannamiguan_tnt_tannamiguantianti.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/loot_table/blocks/tannamiguan_tnt_tannamiguantianti.json",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/block/tannamiguan_tnt_tannamiguantianti.json"
+        ]
+      }
+    },
+    {
+      "name": "TannamiguanTntTannamiguantiantiDangHongShiDianYuanKaiQiShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguan_tnt_tannamiguantianti_dang_hong_shi_dian_yuan_kai_qi_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/procedures/TannamiguanTntTannamiguantiantiDangHongShiDianYuanKaiQiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shimodianhuqi",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimodianhuqi",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/ShimodianhuqiItem.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/shimodianhuqi.json"
+        ]
+      }
+    },
+    {
+      "name": "Shimofen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimofen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/shimofen.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/ShimofenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shimo",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/shimo.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/worldgen/placed_feature/shimo.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/neoforge/biome_modifier/shimo_biome_modifier.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/worldgen/configured_feature/shimo.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/loot_table/blocks/shimo.json",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/blockstates/shimo.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/block/ShimoBlock.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/block/shimo.json"
+        ]
+      }
+    },
+    {
+      "name": "Shimodianhuqihechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimodianhuqihechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/shimodianhuqihechen.json"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/tannamiguan.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/TannamiguanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguantntpeifang",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguantntpeifang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/tannamiguantntpeifang.json"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguanhechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguanhechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/tannamiguanhechen.json"
+        ]
+      }
+    },
+    {
+      "name": "LluoC",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lluo_c",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/LluoCItem.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/lluo_c.json"
+        ]
+      }
+    },
+    {
+      "name": "Luocrohechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luocrohechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/luocrohechen.json"
+        ]
+      }
+    },
+    {
+      "name": "Fentiao",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fentiao",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/fentiao.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/FentiaoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Luocifen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luocifen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/luocifen.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/LuocifenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fentiaohechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fentiaohechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/fentiaohechen.json"
+        ]
+      }
+    },
+    {
+      "name": "Luocfenhechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luocfenhechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/luocfenhechen.json"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguantntjianwupingtai",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguantntjianwupingtai",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/tannamiguantntjianwupingtai.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/TannamiguantntjianwupingtaiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguanwntjian",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguanwntjian",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/entity/TannamiguanwntjianEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguantntjianpafang",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguantntjianpafang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/tannamiguantntjianpafang.json"
+        ]
+      }
+    },
+    {
+      "name": "Shoufasheqiliouchen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shoufasheqiliouchen",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/procedures/ShoufasheqiliouchenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shoufasheqi",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shoufasheqi",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/network/ShoufasheqiMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguantntgong",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguantntgong",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/tannamiguantntgong.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/TannamiguantntgongItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguantntjianfashegongjianpeifang",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguantntjianfashegongjianpeifang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/tannamiguantntjianfashegongjianpeifang.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenhour",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenhour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/goldenhour.json",
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/jukebox_song/goldenhour.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/GoldenhourItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Goldenhourhechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenhourhechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/goldenhourhechen.json"
+        ]
+      }
+    },
+    {
+      "name": "Anheqiaochangpian",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anheqiaochangpian",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/jukebox_song/anheqiaochangpian.json",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/anheqiaochangpian.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/AnheqiaochangpianItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Anheqiaochangpianhechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anheqiaochangpianhechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/anheqiaochangpianhechen.json"
+        ]
+      }
+    },
+    {
+      "name": "Tanamiguangao",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanamiguangao",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/tanamiguangao.json",
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/TanamiguangaoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguanjian",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguanjian",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/TannamiguanjianItem.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/tannamiguanjian.json"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguanjiantanshewu",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguanjiantanshewu",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/entity/TannamiguanjiantanshewuEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguanjianhechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguanjianhechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/tannamiguanjianhechen.json"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguanjianfasheqi",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguanjianfasheqi",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/item/TannamiguanjianfasheqiItem.java",
+          "src/main/resources/assets/weixiaoranmmcmsc_qiqiguaiguaimod/models/item/tannamiguanjianfasheqi.json"
+        ]
+      }
+    },
+    {
+      "name": "Tannamiguangonghechen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tannamiguangonghechen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weixiaoranmmcmsc_qiqiguaiguaimod/recipe/tannamiguangonghechen.json"
+        ]
+      }
+    },
+    {
+      "name": "Shoufasheqiliouchentannamiguanjian",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shoufasheqiliouchentannamiguanjian",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/procedures/ShoufasheqiliouchentannamiguanjianProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shouqiangfashe",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shouqiangfashe",
+      "metadata": {
+        "files": [
+          "src/main/java/weixiaoranmmcmsc_qiqiguaiguaimod/network/ShouqiangfasheMessage.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "haoyunlai",
+      "files": [
+        "hao_yun_lai_"
+      ],
+      "category": "record",
+      "subtitle": "好运来"
+    },
+    {
+      "name": "gongxifacai",
+      "files": [
+        "gong_xi_fa_cai_"
+      ],
+      "category": "record",
+      "subtitle": "恭喜发财"
+    },
+    {
+      "name": "showitben",
+      "files": [
+        "show_it_benwei_da_ma_"
+      ],
+      "category": "record",
+      "subtitle": "show it Ben 未打码"
+    },
+    {
+      "name": "anheqiao",
+      "files": [
+        "an_he_qiao_"
+      ],
+      "category": "record",
+      "subtitle": "安和桥"
+    },
+    {
+      "name": "golden_hour",
+      "files": [
+        "golden_hour"
+      ],
+      "category": "record",
+      "subtitle": "golden hour"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Shimodianhuqi",
+      "~CUSTOM:Changpiankeluji",
+      "~CUSTOM:Changpianmojv"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Tanamiguangao"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Shimo"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Jvyuxi",
+      "~CUSTOM:Shiyou"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Tanamiguangao"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Tanamiguangao"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:Luocifen",
+      "~CUSTOM:Fentiao",
+      "~CUSTOM:LluoC"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Anheqiaochangpian",
+      "~CUSTOM:Goldenhour",
+      "~CUSTOM:Showitbencangpian",
+      "~CUSTOM:Gongxifacaichangpian",
+      "~CUSTOM:Haoyunlai"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.golden_hour": "golden hour",
+      "item.modweixiaoranmmc_msc.showitbencangpian": "show it Ben唱片",
+      "item.modweixiaoranmmc_msc.shimodianhuqi": "石墨电弧发生器",
+      "item.modweixiaoranmmc_msc.tannamiguan": "碳纳米管",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.tannamiguanjianfasheqi": "碳纳米管箭碳纳米管发射弓(无耐久)",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.showitbencangpian": "show it Ben唱片",
+      "item_group.weixiaoranmmcmsc_qiqiguaiguaimod.qiqiguaiguaidemodbiaoqianye": "奇奇♂怪怪的mod",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.shimofen": "石墨粉",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.changpiankeluji": "唱片刻录机",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.haoyunlai.desc": "好运来",
+      "subtitles.golden-hour": "golden hour",
+      "fluid.weixiaoranmmcmsc_qiqiguaiguaimod.jvyuxi": "聚乙烯",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.tannamiguantntjianwupingtai": "碳纳米管TNT箭(不可重复使用)",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.anheqiaochangpian": "安和桥唱片",
+      "key.weixiaoranmmcmsc_qiqiguaiguaimod.shoufasheqi": "手枪(碳纳米管TNT箭)发射键(弹药:无限的碳纳米管TNT箭)(愚人节彩蛋)",
+      "block.weixiaoranmmcmsc_qiqiguaiguaimod.jvyuxi": "聚乙烯",
+      "item.modweixiaoranmmc_msc.changpianmojv": "唱片模具",
+      "block.modweixiaoranmmc_msc.jvyuxi": "聚乙烯",
+      "block.modweixiaoranmmc_msc.shiyou": "石油",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.fentiao": "粉条",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.showitbencangpian.desc": "show it Ben未打码",
+      "fluid.modweixiaoranmmc_msc.shiyou": "石油",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.goldenhour.desc": "golden hour",
+      "item.modweixiaoranmmc_msc.shimofen": "石墨粉",
+      "item_group.modweixiaoranmmc_msc.qiqiguaiguaidemodbiaoqianye": "奇奇♂怪怪的mod",
+      "item.modweixiaoranmmc_msc.changpiankeluji": "唱片刻录机",
+      "block.weixiaoranmmcmsc_qiqiguaiguaimod.shiyou": "石油",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.luocifen": "罗C(罗琛)粉",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.haoyunlai": "好运来唱片",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.gongxifacaichangpian": "恭喜发财唱片",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.tanamiguangao": "碳纳米管工具",
+      "item.modweixiaoranmmc_msc.showitbencangpian.desc": "show it Ben未打码",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.gongxifacaichangpian.desc": "恭喜发财",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.tannamiguan": "碳纳米管",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.shimodianhuqi": "石墨电弧发生器",
+      "item.modweixiaoranmmc_msc.haoyunlai": "好运来唱片",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.anheqiaochangpian.desc": "安和桥",
+      "item.modweixiaoranmmc_msc.jvyuxi_bucket": "聚乙烯桶",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.lluo_c": "罗C(罗琛)肉",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.shiyou_bucket": "石油桶",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.goldenhour": "golden hour唱片",
+      "fluid.modweixiaoranmmc_msc.jvyuxi": "聚乙烯",
+      "subtitles.gongxifacai": "恭喜发财",
+      "subtitles.anheqiao": "安和桥",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.tannamiguanjian": "碳纳米管箭(不可重复使用)",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.changpianmojv": "唱片模具",
+      "item.modweixiaoranmmc_msc.kongchangpian": "空唱片",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.kongchangpian": "空唱片",
+      "block.modweixiaoranmmc_msc.shimo": "石墨矿",
+      "subtitles.showitben": "show it Ben 未打码",
+      "item.modweixiaoranmmc_msc.shiyou_bucket": "石油桶",
+      "subtitles.goldenhour": "golden hour",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.tannamiguantntgong": "碳纳米管TNT箭碳纳米管TNT发射弓(无耐久)",
+      "item.modweixiaoranmmc_msc.haoyunlai.desc": "好运来",
+      "item.modweixiaoranmmc_msc.gongxifacaichangpian": "恭喜发财唱片",
+      "block.modweixiaoranmmc_msc.tannamiguan_tnt_tannamiguantianti": "碳纳米管TNT(天梯)(可重复使用)",
+      "subtitles.haoyunlai": "好运来",
+      "block.weixiaoranmmcmsc_qiqiguaiguaimod.tannamiguan_tnt_tannamiguantianti": "碳纳米管TNT(天梯)(可重复使用;爆炸方式:红石激活,右键单击,弹射物射击,实体踩踏，实体碰撞,爆炸波及;为物品时不会轻易爆炸,为方块时易爆!!!!;水下也可爆炸)",
+      "item.modweixiaoranmmc_msc.gongxifacaichangpian.desc": "恭喜发财",
+      "fluid.weixiaoranmmcmsc_qiqiguaiguaimod.shiyou": "石油",
+      "block.weixiaoranmmcmsc_qiqiguaiguaimod.shimo": "石墨矿",
+      "item.weixiaoranmmcmsc_qiqiguaiguaimod.jvyuxi_bucket": "聚乙烯桶",
+      "key.weixiaoranmmcmsc_qiqiguaiguaimod.shouqiangfashe": "手枪(碳纳米管TNT箭)发射键(弹药:无限的碳纳米管TNT箭)(愚人节彩蛋)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "weixiaoranmmcmsc_qiqiguaiguaimod",
+    "modName": "奇奇♂怪怪的mod-(weixiaoran-电脑上的mmc控制台_msc)",
+    "version": "1.0.0",
+    "description": "奇奇♂怪怪的mod",
+    "author": "韦潇然, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "mod制作贡献:MCreator(https://mcreator.net/    https://mcreator.net/about);制作人员:weixiaoran(电脑上的mmc控制台_msc)",
+    "modElementsPackage": "weixiaoranmmcmsc_qiqiguaiguaimod"
+  },
+  "mcreatorVersion": 202500113416
+}
